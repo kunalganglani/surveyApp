@@ -1,5 +1,5 @@
-# cricket Score App
-Cricket Score Tracking App
+# Survey App
+Survey App
 To Start app, 
 1. Clone the Github repository. 
 2. Open terminal
