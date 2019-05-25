@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "build-watch": "webpack -d --watch",
+    "start": "npm-run-all --parallel build-watch live server",
+    "live": "live-server",
+    "server": "json-server --watch survey_data.json"
+  },
+  "devDependencies": {
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.2.2",
+    "babel-runtime": "^5.6.15",
+    "json-server": "^0.15.0",
+    "live-server": "^1.2.1",
+    "node-libs-browser": "^0.5.2",
+    "npm-run-all": "^4.1.5",
+    "webpack": "^1.10.0"
+  },
+  "dependencies": {}
+}
